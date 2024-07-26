@@ -7,7 +7,7 @@ Insert or update (aka "upsert", "replace") structure into postgres table using s
 import (
     upsert "github.com/covrom/sqlx-upsert-postgres"
     "github.com/google/uuid"
-	"github.com/jmoiron/sqlx"
+    "github.com/jmoiron/sqlx"
 )
 
 type PgComment struct {
